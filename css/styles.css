@@ -10166,3 +10166,6 @@ section.resume-section-content-sh {
   color: white;
   font-weight: 575;
 }
+.button-text:hover {
+  color: white;
+}
