@@ -4355,6 +4355,8 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-right: 2%;
+  margin-bottom: 2%;
 }
 .card > hr {
   margin-right: 0;
