@@ -10069,6 +10069,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
+    cursor: default;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -10170,4 +10171,12 @@ section.resume-section-content-sh {
 }
 .button-text:hover {
   color: white;
+}
+.skills-image {
+  width: 40px;
+  display: inline-block;
+  /* -ms-transform: translateY(50%); */
+  transform: translateY(-10%);
+  list-style: none;
+  margin-right: 0.5rem;
 }
