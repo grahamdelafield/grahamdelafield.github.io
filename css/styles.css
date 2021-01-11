@@ -10193,5 +10193,6 @@ section.resume-section-content-sh {
   display: flex;
 }
 .card-text {
-  margin-bottom: 3rem;
+  margin-top: auto;
+  margin-bottom: 2rem;
 }
