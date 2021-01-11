@@ -2502,7 +2502,16 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
 }
-
+.btn-card {
+  position: absolute;
+  left: 1.3rem;
+  bottom: 1.3rem;
+  margin-top: 10rem;
+  vertical-align: bottom;
+  color: #fff;
+  background-color: #4d588d;
+  border-color: #4d588d;
+}
 .btn-secondary {
   color: #fff;
   background-color: #6c757d;
@@ -10179,4 +10188,10 @@ section.resume-section-content-sh {
   transform: translateY(-10%);
   list-style: none;
   margin-right: 0.5rem;
+}
+.card-table {
+  display: flex;
+}
+.card-text {
+  margin-bottom: 3rem;
 }
