@@ -4358,7 +4358,8 @@ input[type=button].btn-block {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  flex: 1 0 15%;
+  min-width: 75;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -4394,6 +4395,7 @@ input[type=button].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  word-wrap: break-word;
 }
 
 .card-subtitle {
@@ -10039,6 +10041,7 @@ h1 {
 }
 
 p.lead {
+  text-align: justify;
   font-size: 1.15rem;
   font-weight: 400;
 }
@@ -10167,6 +10170,7 @@ section.resume-section-content-sh {
 }
 .exp-list-item {
   list-style: outside;
+  text-align: justify;
   margin-left: 2%;
   padding-top: 0px;
 }
@@ -10190,9 +10194,15 @@ section.resume-section-content-sh {
   margin-right: 0.5rem;
 }
 .card-table {
-  display: flex;
+  justify-content: space-between;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-shrink: 2;
 }
 .card-text {
   margin-top: auto;
   margin-bottom: 2rem;
+}
+.pub-text{
+  text-align: justify;
 }
