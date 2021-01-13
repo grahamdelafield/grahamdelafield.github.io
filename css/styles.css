@@ -10205,4 +10205,6 @@ section.resume-section-content-sh {
 }
 .pub-text{
   text-align: justify;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
