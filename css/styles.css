@@ -10204,6 +10204,11 @@ section.resume-section-content-sh {
   margin-top: auto;
   margin-bottom: 2rem;
 }
+.card-pub-title {
+  margin-top: auto;
+  font-style: italic;
+  font-weight: 500;
+}
 .pub-text{
   text-align: justify;
   padding-left: 0.5rem;
